@@ -6,7 +6,7 @@ import (
 )
 
 func update(screen *ebiten.Image) error {
-	ebitenutil.DebugPrint(screen, "Hello game!")
+	ebitenutil.DebugPrint(screen, "Hello game! It's now V2!")
 	return nil
 }
 
